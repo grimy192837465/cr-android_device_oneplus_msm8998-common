@@ -5,7 +5,7 @@
         <version>4.0</version>
         <interface>
             <name>IDevicesFactory</name>
-            <instance>default</instance>
+            <instance>msm8998</instance>
         </interface>
     </hal>
     <hal format="hidl">
@@ -85,7 +85,7 @@
         <version>1.0</version>
         <interface>
             <name>IGatekeeper</name>
-            <instance>default</instance>
+            <instance>msm8998</instance>
         </interface>
     </hal>
     <hal format="hidl">
@@ -94,7 +94,7 @@
         <version>1.1</version>
         <interface>
             <name>IGnss</name>
-            <instance>default</instance>
+            <instance>msm8998</instance>
             <instance>gnss_vendor</instance>
         </interface>
     </hal>
@@ -104,7 +104,7 @@
         <version>2.0</version>
         <interface>
             <name>IAllocator</name>
-            <instance>default</instance>
+            <instance>msm8998</instance>
         </interface>
     </hal>
     <hal format="hidl">
@@ -113,7 +113,7 @@
         <version>2.1</version>
         <interface>
             <name>IComposer</name>
-            <instance>default</instance>
+            <instance>msm8998</instance>
         </interface>
     </hal>
     <hal format="hidl">
@@ -140,7 +140,7 @@
         <version>3.0</version>
         <interface>
             <name>IKeymasterDevice</name>
-            <instance>default</instance>
+            <instance>msm8998</instance>
         </interface>
     </hal>
     <hal format="hidl">
@@ -149,7 +149,7 @@
         <version>2.0</version>
         <interface>
             <name>ILight</name>
-            <instance>default</instance>
+            <instance>msm8998</instance>
         </interface>
     </hal>
     <hal format="hidl">
@@ -171,7 +171,7 @@
         <version>1.0</version>
         <interface>
             <name>IMemtrack</name>
-            <instance>default</instance>
+            <instance>msm8998</instance>
         </interface>
     </hal>
     <hal format="hidl">
@@ -248,7 +248,7 @@
         <version>1.0</version>
         <interface>
             <name>ISensors</name>
-            <instance>default</instance>
+            <instance>msm8998</instance>
         </interface>
     </hal>
     <hal format="hidl">
@@ -275,7 +275,7 @@
         <version>1.0</version>
         <interface>
             <name>IThermal</name>
-            <instance>default</instance>
+            <instance>msm8998</instance>
         </interface>
     </hal>
     <hal format="hidl">
@@ -401,15 +401,6 @@
         <version>1.0</version>
         <interface>
             <name>IDisplayPostproc</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.lineage.livedisplay</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IColor</name>
             <instance>default</instance>
         </interface>
     </hal>
