@@ -1,6 +1,7 @@
+typeattribute vendor_init data_between_core_and_vendor_violators;
 allow vendor_init dash_device:chr_file { r_file_perms };
 allow vendor_init tmpfs:dir { create rw_dir_perms };
-
+allow vendor_init rootfs:dir { write add_name };
 # /data/misc/camera/client_package_name
 typeattribute vendor_init data_between_core_and_vendor_violators;
 allow vendor_init system_data_file:dir { w_dir_perms };
